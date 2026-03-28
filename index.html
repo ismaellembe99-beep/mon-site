@@ -43,6 +43,22 @@
     .btn2 { background: #3b82f6; }
     .btn3 { background: green; }
 
+    img {
+      width: 90%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    /* bouton flottant */
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: green;
+      padding: 15px;
+      border-radius: 50%;
+      font-size: 20px;
+    }
   </style>
 </head>
 
@@ -57,14 +73,23 @@
   <h1>Bienvenue 👋</h1>
   <p>Je t’aide à améliorer ton téléphone et ta vie 💡</p>
 
+  <!-- CONSEIL DU JOUR -->
   <div class="card">
-    📱 Conseils pour téléphone
+    🔥 Conseil du jour :
+    <p>Redémarre ton téléphone au moins 1 fois par semaine 📱</p>
+  </div>
+
+  <!-- CONSEILS -->
+  <div class="card">
+    📱 Conseils téléphone
     <br>
     <a href="conseils.html">
       <button class="btn1">Voir</button>
     </a>
+    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
   </div>
 
+  <!-- CONTACT -->
   <div class="card">
     📞 Contact direct
     <br>
@@ -73,6 +98,7 @@
     </a>
   </div>
 
+  <!-- PARTAGE -->
   <div class="card">
     🔥 Partager le site
     <br>
@@ -81,7 +107,18 @@
     </a>
   </div>
 
+  <!-- MOTIVATION -->
+  <div class="card">
+    💪 Motivation :
+    <p>Ne lâche jamais, ton avenir dépend de toi 🔥</p>
+  </div>
+
 </div>
+
+<!-- bouton WhatsApp flottant -->
+<a href="https://wa.me/243TONNUMERO?text=Bonjour%20j'ai%20vu%20ton%20site%20et%20j'ai%20besoin%20d'aide" class="whatsapp">
+  💬
+</a>
 
 </body>
 </html>
