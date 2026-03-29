@@ -1,134 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Conseils & Motivation</title>
+<title>Mes idées & conseils</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial;
-      background: linear-gradient(to right, #0f172a, #1e293b);
-      color: white;
-      text-align: center;
-    }
+<style>
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+  margin: 0;
+  padding: 10px;
+}
 
-    header {
-      background: #22c55e;
-      padding: 20px;
-      font-size: 20px;
-      font-weight: bold;
-    }
+h1 {
+  text-align: center;
+}
 
-    .container {
-      padding: 20px;
-    }
+.card {
+  background: #1e293b;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
 
-    .card {
-      background: #1e293b;
-      margin: 15px;
-      padding: 20px;
-      border-radius: 15px;
-    }
+img {
+  width: 100%;
+  border-radius: 10px;
+}
 
-    button {
-      padding: 15px 20px;
-      margin: 10px;
-      border: none;
-      border-radius: 10px;
-      color: white;
-      font-size: 16px;
-    }
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
 
-    .btn1 { background: #22c55e; }
-    .btn2 { background: #3b82f6; }
-    .btn3 { background: green; }
+button {
+  background: #22c55e;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+</style>
 
-    img {
-      width: 90%;
-      border-radius: 10px;
-      margin-top: 10px;
-    }
-
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: green;
-      padding: 15px;
-      border-radius: 50%;
-      font-size: 20px;
-    }
-
-    .message-box {
-      background:#1e293b;
-      padding:10px;
-      border-radius:10px;
-      margin-top:10px;
-    }
-  </style>
 </head>
 
 <body>
 
-<header>
-  🌍 Conseils • Motivation • Aide
-</header>
+<h1>🔥 Mes idées & conseils</h1>
 
-<div class="container">
-
-  <h1>Bienvenue 👋</h1>
-  <p>Je t’aide à améliorer ton téléphone et ta vie 💡</p>
-
-  <!-- NOUVEAU MESSAGE AJOUTÉ -->
-  <div class="message-box">
-    💬 Tu as un problème ? Clique sur <b>Contact</b> et écris-moi 👍
-  </div>
-
-  <!-- CONSEIL DU JOUR -->
-  <div class="card">
-    🔥 Conseil du jour :
-    <p>Redémarre ton téléphone au moins 1 fois par semaine 📱</p>
-  </div>
-
-  <!-- CONSEILS -->
-  <div class="card">
-    📱 Conseils téléphone
-    <br>
-    <a href="conseils.html">
-      <button class="btn1">Voir</button>
-    </a>
-    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
-  </div>
-
-  <!-- CONTACT -->
-  <div class="card">
-    📞 Contact direct
-    <br>
-    <a href="contact.html">
-      <button class="btn2">Me contacter</button>
-    </a>
-  </div>
-
-  <!-- PARTAGE -->
-  <div class="card">
-    🔥 Partager le site
-    <br>
-    <a href="https://wa.me/?text=🔥%20Regarde%20ce%20site%20👇%20https://ismaellembe99-beep.github.io/mon-site/">
-      <button class="btn3">Partager WhatsApp</button>
-    </a>
-  </div>
-
-  <!-- MOTIVATION -->
-  <div class="card">
-    💪 Motivation :
-    <p>Ne lâche jamais, ton avenir dépend de toi 🔥</p>
-  </div>
-
+<div class="card">
+  <h2>💡 Comment gagner de l'argent avec un téléphone</h2>
+  <img src="https://picsum.photos/400/200">
+  <p>Voici une méthode simple pour commencer...</p>
 </div>
 
-<!-- bouton WhatsApp flottant -->
-<a href="https://wa.me/243854925371?text=Bonjour%20j'ai%20vu%20ton%20site%20et%20j'ai%20besoin%20d'aide" class="whatsapp">
-  💬
+<div class="card">
+  <h2>📱 Astuce Android</h2>
+  <img src="https://picsum.photos/400/201">
+  <p>Découvre une astuce cachée sur ton téléphone...</p>
+</div>
+
+<!-- FORMULAIRE -->
+<h2>✉️ Contacte-moi</h2>
+
+<form action="https://formspree.io/f/mzzgnygw" method="POST">
+  <input type="text" name="name" placeholder="Ton nom" required><br><br>
+  <input type="email" name="email" placeholder="Ton email" required><br><br>
+  <textarea name="message" placeholder="Ton message" required></textarea><br><br>
+  <button type="submit">Envoyer</button>
+</form>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/243970000000" target="_blank" 
+style="position:fixed;bottom:20px;right:20px;
+background:#25D366;color:white;
+padding:15px;border-radius:50px;
+text-decoration:none;">
+💬
 </a>
 
 </body>
