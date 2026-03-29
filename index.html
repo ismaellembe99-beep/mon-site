@@ -1,49 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Mes idées & conseils</title>
+    <title>Mes idées & conseils</title>
 
-<style>
-body {
-    font-family: Arial;
-    background: #0f172a;
-    color: white;
-    margin: 0;
-    padding: 10px;
-}
+    <style>
+        body {
+            font-family: Arial;
+            background: #0f172a;
+            color: white;
+            margin: 0;
+            padding: 10px;
+        }
 
-h1 {
-    text-align: center;
-}
+        h1 {
+            text-align: center;
+        }
 
-.card {
-    background: #1e293b;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 10px;
-}
+        .card {
+            background: #1e293b;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
 
-img {
-    width: 100%;
-    border-radius: 10px;
-}
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
 
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-}
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 10px;
+        }
 
-button {
-    background: #22c55e;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-}
-</style>
+        button {
+            background: #22c55e;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+        }
 
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: white;
+            padding: 15px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -63,32 +76,21 @@ button {
 </div>
 
 <!-- FORMULAIRE -->
-<h2>📩 Contacte-moi</h2>
+<h2>📧 Contacte-moi</h2>
 
 <form action="https://formspree.io/f/mzzgnygw" method="POST">
-    <input type="text" name="name" placeholder="Ton nom" required><br><br>
-
-    <input type="email" name="email" placeholder="Ton email" required><br><br>
-
-    <textarea name="message" placeholder="Ton message" required></textarea><br><br>
-
+    <input type="text" name="name" placeholder="Ton nom" required>
+    
+    <input type="email" name="email" placeholder="Ton email" required>
+    
+    <textarea name="message" placeholder="Ton message" required></textarea>
+    
     <button type="submit">Envoyer</button>
 </form>
 
 <!-- WHATSAPP -->
-<a href="https://wa.me/243854925371" target="_blank"
-style="
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-padding:15px;
-border-radius:50px;
-text-decoration:none;
-font-size:20px;
-">
-💬
+<a href="https://wa.me/243854925371" target="_blank" class="whatsapp">
+    💬
 </a>
 
 </body>
